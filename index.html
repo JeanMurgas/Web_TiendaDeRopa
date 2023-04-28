@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raxor</title>
+    <link src="barra_superior.html">
+    <link rel="stylesheet" href="C:\Users\jenmu\OneDrive\Documents\Programación_cursos\Tareas en Visual\Web_TiendaDeRopa\css\index.css">
+</head>
+<body>
+    <div class="TituloClase">
+        <h1 id="TituloEtiqueta">E-commerce Raxor</h1>
+    </div>
+
+    <div class="descripClase">
+        <h3 id="SubTituloDescripcion">Descripción</h3>
+
+        <div class="descripcion">
+            <p id="desc">E-commerce Raxor es una página creada para practicar el desarrollo web utilizando html css y javascript</p>
+        </div>
+        
+    </div>
+
+    <div class="catalogo">
+
+        <ul class="subCatalogo">
+            <li id="Sueter">
+                <a href="Categorias/Sueter.html">Sueter</a>
+            </li>
+            <li id="Abrigos">
+                <a href="Categorias/Abrigo.html">Abrigos</a>
+            </li>
+            <li id="Pantalones">
+                <a href="Categorias/Pantalon.html">Pantalones</a>
+            </li>
+            <li id="Gorras">
+                <a href="Categorias/Gorras.html">Gorras</a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="content">
+        <h3>Gráfico sobre las categorías más buscadas</h3>
+        <canvas id="myChart" height="300" width="300"></canvas>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js" integrity="sha512-v3ygConQmvH0QehvQa6gSvTE2VdBZ6wkLOlmK7Mcy2mZ0ZF9saNbbk19QeaoTHdWIEiTlWmrwAL4hS8ElnGFbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./JavaScript/index.js"></script>
+</body>
+</html>
